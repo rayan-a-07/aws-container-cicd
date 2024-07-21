@@ -43,7 +43,7 @@ Before setting up the pipeline, ensure the following configurations:
 
 The architecture of the CI/CD pipeline is as follows:
 
-![Architecture Diagram](awscicd-architecture.png)
+![Architecture Diagram](awscicd-pipeline.png)
 
 1. **Code Commit**: Developer commits code to GitHub repository.
 2. **Code Fetch**: Jenkins fetches code from GitHub using a webhook.
@@ -62,6 +62,9 @@ The architecture of the CI/CD pipeline is as follows:
 6. **Docker Build**: If the quality gate is passed, Jenkins builds a Docker image of the application.
 7. **Amazon ECR**: The Docker image is then uploaded to Amazon Elastic Container Registry (ECR).
 8. **Amazon ECS**: Finally, the image is deployed to Amazon Elastic Container Service (ECS) using a Fargate task.
+
+### ECS Architecture
+![ECS Architecture](ecs-architecture.png)
 
 ## Steps
 

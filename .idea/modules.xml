@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/aws-container-cicd-pipeline.iml" filepath="$PROJECT_DIR$/.idea/aws-container-cicd-pipeline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aws-container-cicd.iml" filepath="$PROJECT_DIR$/.idea/aws-container-cicd.iml" />
     </modules>
   </component>
 </project>
